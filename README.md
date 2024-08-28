@@ -119,21 +119,7 @@ depth_map_project/
 
 2. **MiDaS (DPT-BEiT-Base-384)**: A robust depth estimation model known for its performance across different datasets and scene types.
 
-## Assessment Criteria Addressed
 
-1. **Code Quality and Organization**: The project is well-structured with separate modules for different functionalities. The code follows PEP 8 guidelines and includes comments for clarity.
-
-2. **Functionality**: The application successfully implements real-time depth map streaming with two different models, meeting the core requirements.
-
-3. **User Interface**: A simple yet functional web interface is provided, allowing users to control the streaming and select models.
-
-4. **Performance**: Asynchronous programming and WebSocket communication are used to ensure smooth real-time performance.
-
-5. **Error Handling**: The application includes error logging and display mechanisms for both frontend and backend issues.
-
-6. **Documentation**: This README provides comprehensive documentation on setup, usage, and the overall methodology.
-
-7. **Innovation**: The project combines cutting-edge depth estimation models with real-time web streaming, showcasing an innovative approach to depth visualization.
 
 ## Future Improvements
 
