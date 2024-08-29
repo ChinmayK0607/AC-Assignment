@@ -121,3 +121,5 @@ depth_map_project/
 
 ## Side-Note
 The checkpoints directory needs to be moved inside the Depth-Anything repo for proper imports. Also all files from the backend and frontend need to be moved to the same directory, as different behaviours on different machines have been noticed while testing. Keeping all files, without folders in the Depth-Anything-V2 repo for best results. 
+The directory structure should look something like this: 
+![image](https://github.com/user-attachments/assets/1b3745ed-921b-4587-88dc-a95958ba4fba)
