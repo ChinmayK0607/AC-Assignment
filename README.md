@@ -55,16 +55,16 @@ This application provides a web interface for real-time depth map visualization.
 depth_map_project/
 ├── backend/
 │   ├── __init__.py
-│   ├── main.py            # FastAPI application and WebSocket handler
-│   ├── model_loader.py    # Loader for Depth-Anything-V2 model
-│   └── midas_loader.py    # Loader for MiDaS model
+│   ├── main.py           
+│   ├── model_loader.py    
+│   └── midas_loader.py    
 ├── frontend/
-│   └── index.html         # Web interface
+│   └── index.html         
 ├── utils/
-│   └── checkpoint_downloader.py  # Utility for downloading model checkpoints
-├── checkpoints/           # Directory to store model weights
-├── requirements.txt       # Project dependencies
-└── README.md              # This file
+│   └── checkpoint_downloader.py  
+├── checkpoints/           
+├── requirements.txt       
+└── README.md              
 ```
 
 ## Setup and Installation
