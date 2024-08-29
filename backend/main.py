@@ -14,7 +14,7 @@ import time
 
 app = FastAPI()
 
-app.mount("/static", StaticFiles(directory="frontend"), name="static")
+# app.mount("/static", StaticFiles(directory="frontend"), name="static")
 
 # Define the target size for resizing
 TARGET_WIDTH = 640
