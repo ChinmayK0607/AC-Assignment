@@ -1,6 +1,7 @@
 # Real-Time Depth Map Streaming
 
 This project implements a real-time depth map streaming application using advanced depth estimation models. It allows users to visualize depth information from their webcam feed in real-time, leveraging two different depth estimation models.
+(note: please use GPU for best results, tested on an L4 24GB Nvidia GPU)
 
 ## Table of Contents
 
@@ -25,7 +26,7 @@ This application provides a web interface for real-time depth map visualization.
   - Depth-Anything-V2
   - MiDaS (DPT-BEiT-Base-384)
 - Interactive web interface for model selection and streaming control
-- Real-time depth map visualization
+- Close to Real-time depth map visualization on GPU 
 
 ## Technologies and Libraries Used
 
