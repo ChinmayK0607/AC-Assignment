@@ -53,19 +53,19 @@ This application provides a web interface for real-time depth map visualization.
 ## Project Structure
 
 ```
-depth_map_project/
+AC-Assignment/
 ├── backend/
 │   ├── __init__.py
-│   ├── main.py           
-│   ├── model_loader.py    
-│   └── midas_loader.py    
+│   ├── main.py
+|    ├── checkpoints/
+│   ├── midas_loader.py
+│   └── model_loader.py
 ├── frontend/
-│   └── index.html         
+│   └── index.html
 ├── utils/
-│   └── checkpoint_downloader.py  
-├── checkpoints/           
-├── requirements.txt       
-└── README.md              
+├── README.md
+├── requirements.txt
+└── setup.sh      
 ```
 
 ## Setup and Installation
