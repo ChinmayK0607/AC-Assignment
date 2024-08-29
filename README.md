@@ -43,7 +43,7 @@ This application provides a web interface for real-time depth map visualization.
   - WebSocket API
 
 - **Models**:
-  - Depth-Anything-V2
+  - Depth-Anything-V2-small
   - MiDaS (DPT-BEiT-Base-384)
 
 - **Utilities**:
