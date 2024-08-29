@@ -12,8 +12,7 @@ This project implements a real-time depth map streaming application using advanc
 6. [Usage](#usage)
 7. [Methodology](#methodology)
 8. [Models Used](#models-used)
-9. [Assessment Criteria Addressed](#assessment-criteria-addressed)
-10. [Future Improvements](#future-improvements)
+
 
 ## Project Overview
 
@@ -119,11 +118,5 @@ depth_map_project/
 
 2. **MiDaS (DPT-BEiT-Base-384)**: A robust depth estimation model known for its performance across different datasets and scene types.
 
-
-
-## Future Improvements
-
-- Implement more depth estimation models for comparison
-- Add options for adjusting video quality and processing speed
-- Introduce depth map post-processing for enhanced visualization
-- Develop features for recording and saving depth map videos
+## Side-Note
+The checkpoints directory needs to be moved inside the Depth-Anything repo for proper imports. Also all files from the backend and frontend need to be moved to the same directory, as different behaviours on different machines have been noticed while testing. Keeping all files, without folders in the Depth-Anything-V2 repo for best results. 
